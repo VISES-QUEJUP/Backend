@@ -29,10 +29,10 @@ export const getUsers = async(req,res) =>{
 export const createUser = async(req,res) =>{
     try {
         
-            const{id,name,email,password,isAdmin}=req.body
+            const{name,email,password,isAdmin}=req.body
         
             const newUsuario = await Usuarios.create({
-                id,
+                
                 name,
                 email,
                 password,

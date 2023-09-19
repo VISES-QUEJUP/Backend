@@ -1,5 +1,6 @@
 import app from "./app.js";
 import { sequelize } from './database/database.js';
+
 //  import './models/usuario.js'
 //  import './models/queja.js'
 //  import './models/tipo.js'
@@ -15,5 +16,6 @@ async function main(){
     console.log("unable to connect to the database:", error)
    }
 }
+
 
 main()

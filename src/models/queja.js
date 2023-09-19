@@ -19,9 +19,8 @@ export const Queja = sequelize.define('queja',{
     cant_Votos:{
         type  :DataTypes.INTEGER,
     },
-    //campo Tipo de queja, Observación 
-    estado_q:{
-        type  :DataTypes.BOOLEAN,
+    observación:{
+        type  :DataTypes.STRING,
     },
     
 })

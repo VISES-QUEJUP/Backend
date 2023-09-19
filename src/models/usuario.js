@@ -29,7 +29,7 @@ isAdmin:{
 //relación de tablas 
 })
 
-Usuarios.hasOne(Queja,{
+Usuarios.hasMany(Queja,{
     foreingKey:'userId',
     sourceKey:'id'
 
